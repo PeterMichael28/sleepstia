@@ -42,7 +42,7 @@ const ShortStoryCarousel = () => {
         <CarouselContent className="m-0 h-full w-full p-0">
           {Array.from({ length: 3 }).map((d, i) => (
             <CarouselItem
-              className="h-full w-full overflow-hidden p-8 md:p-10"
+              className="h-full w-full overflow-hidden p-0 md:p-10"
               key={i}
             >
               <p className="text-lg italic leading-[166%] text-[#4d533c] md:text-[24px]">

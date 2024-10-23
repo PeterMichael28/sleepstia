@@ -52,7 +52,7 @@ const HomeHeroSection = () => {
       </div>
 
       {/* small logos */}
-      <div className="relative h-[100px] w-full bg-white md:hidden">
+      <div className="relative h-[100px] w-full bg-white md:hidden ">
         <LogosSection2 />
       </div>
     </section>

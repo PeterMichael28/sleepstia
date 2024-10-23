@@ -3,12 +3,12 @@ import ShopNowBtn from "./ShopNowBtn";
 
 const ShopSection = () => {
   return (
-    <section className="flex max-w-[1300px] flex-col items-center gap-7 p-4 md:px-0 md:flex-row md:gap-[56px] my-10">
+    <section className="flex max-w-[1300px] flex-col items-center gap-20 p-4 md:px-0 md:flex-row md:gap-[56px] my-10">
       {/* image */}
       <div className="relative flex w-full max-w-[800px] items-center justify-center">
         <img src={shopImg} alt="shopImg" className="md:h-[600px]" />
         {/* absolute card */}
-        <div className="absolute bottom-5 md:bottom-10 right-0 flex w-full max-w-[452px] flex-col rounded-md bg-white p-4 md:p-7 text-sm italic leading-[162%] text-[#4D533C] shadow-[50px_50px_100px_rgba(0,0,0,0.15)] md:text-base">
+        <div className="absolute bottom-5 md:bottom-10 right-0 flex w-full max-w-[452px] flex-col rounded-md bg-white p-4 md:p-7 text-sm italic leading-[162%] text-[#4D533C] shadow-[50px_50px_60px_rgba(0,0,0,0.15)] md:text-base">
           <span>😊 Promotes calm and relaxation.</span>
           <span>💤 Inhalation allows for a rapid effect.</span>
           <span>😊 Promotes calm and relaxation.</span>

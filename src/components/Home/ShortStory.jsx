@@ -4,7 +4,7 @@ import ShortStoryCarousel from "./ShortStoryCarousel";
 import { IoMdArrowDropright } from "react-icons/io";
 const ShortStory = () => {
   return (
-    <section className="mt-10 md:mt-5">
+    <section className="my-10 mb-20 md:my-5">
       <div className="mx-auto flex max-w-[1100px] flex-col items-center gap-x-8 gap-y-16 px-4 py-10 md:flex-row md:justify-between">
         {/* text */}
         <div className="max-w-[457px]">
@@ -37,7 +37,7 @@ const ShortStory = () => {
 
         {/* carousel */}
         <FadeInComponent delay={1.2}>
-          <div className="w-full max-w-[474px] bg-[#FBF9F2] shadow-[0px_100px_100px_0px_rgba(0,0,0,0.15)] transition-shadow duration-300 hover:shadow-[0px_100px_110px_5px_rgba(0,0,0,0.20)]">
+          <div className="w-full max-w-[474px] bg-[#FBF9F2] shadow-[0px_100px_60px_0px_rgba(0,0,0,0.15)] transition-shadow duration-300 hover:shadow-[0px_100px_110px_5px_rgba(0,0,0,0.20)]">
             <ShortStoryCarousel />
           </div>
         </FadeInComponent>
