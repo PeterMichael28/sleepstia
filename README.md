@@ -26,7 +26,7 @@ Follow these steps to run Sleepstia on your local machine:
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/petermichael28/sleepstia.git
+$ git clone https://github.com/PeterMichael28/sleepstia
 
 # Change to project directory
 $ cd sleepstia
