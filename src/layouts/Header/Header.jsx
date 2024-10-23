@@ -42,7 +42,7 @@ const Header = () => {
         </div>
 
         <div className="hidden md:block">
-          <ShopNowBtn classNames="w-[125px]" label="Shop Now" />
+          {/* <ShopNowBtn classNames="w-[125px]" label="Shop Now" /> */}
         </div>
         {/* mobile nav */}
         <MobileNav />
